@@ -1,0 +1,25 @@
+@mixin names {
+color: brown;
+font-size: 20px;
+font-family: cursive
+}
+
+.name_attribute {
+@include names
+}
+
+.contact_input {
+@include names
+}
+
+.references{
+@include names
+}
+
+.class_needed{
+@include names
+}
+
+.money_talk {
+@include names
+}

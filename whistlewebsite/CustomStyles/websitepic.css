@@ -1,0 +1,114 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: url("../images/STICKERS_LOGO.png") no-repeat center center fixed;
+  background-size: cover;
+  color: rgba(131, 91, 16, 0);
+}
+
+#page-title {
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #a05555;
+  color: rgba(131, 91, 16, 0);
+}
+
+#sub {
+  background-color: #eddbdb;
+  padding: 10px;
+  width: 250px;
+}
+
+.definitions {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 20px;
+  -webkit-animation: myAnimation 5s infinite;
+  animation: myAnimation 10s ease-in-out 0s infinite alternate;
+}
+
+@-webkit-keyframes 'myAnimation' {
+  50% {
+    background-color: #d3a0a0;
+  }
+}
+
+@keyframes 'myAnimation' {
+  50% {
+    background-color: white;
+  }
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: 600;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 1px 0 1px #b02626;
+}
+
+.package {
+  -webkit-transition: all 500ms ease-out 1s;
+  transition: all 500ms ease-out 1s;
+  background-color: #e8e8e8;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 50px;
+  font-size: 1.2em;
+  border-bottom: 20px solid blue;
+  width: 250px;
+  height: 400px;
+}
+
+.package h2 {
+  color: black;
+}
+
+.package:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+#pricing-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*Pseduo Classes*/
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: #ab3939;
+}
+
+a:active {
+  color: blue;
+}
+
+#blocks {
+  position: absolute;
+}
+
+.block {
+  height: 140px;
+  width: 250px;
+  background-color: #ab3939;
+}
+/*# sourceMappingURL=websitepic.css.map */

@@ -1,0 +1,158 @@
+@mixin {
+
+}
+
+body {
+    background-color: #eae7e7;
+	color: #473f3f;
+}
+#page-title {
+	font-family: sans-serif;
+	-webkit-animation: myAnimation 10s infinite; animation: myAnimation 10s ease-in-out 10s infinite alternate;
+	color: #4c4646;
+}
+		@-webkit-keyframes 'myAnimation' {
+		  50% {
+		    background-color: #dde5ef;
+			
+			}
+		}
+		
+		
+		@keyframes 'myAnimation' {
+		  50% {
+		    background-color:#4c4646 ;
+		  }
+	}
+	
+#History {
+	color: #ce5e5e;
+	-webkit-animation: myAnimation 5s infinite; animation: myAnimation 10s ease-in-out 0s infinite alternate;
+	}
+	@-webkit-keyframes 'myAnimation' {
+	  50% {
+	    
+			background-color: #dfe3ec;
+	  }
+}
+	@keyframes 'myAnimation' {
+	  50% {
+	    background-color: white;
+	  }
+}
+.definitions {
+	 font-family: sans-serif;
+	 color: #a00404;
+		-webkit-animation: myAnimation 10sinfinite; animation: myAnimation 10s infinite alternate; 
+		}
+		
+		@-webkit-keyframes 'myAnimation' {
+		  50% {
+		    background-color: white;
+			}
+	}
+		@keyframes 'myAnimation' {
+		  50% {
+		    background-color: blue;
+		  }
+	}
+	/*pseudo classes*/
+	
+	a:link {
+	  color: Gray;
+	}
+	
+	a:visited {
+	  color: green;
+	}
+	
+	a:hover {
+	  color: #ab3939;
+	}
+	
+	a:active {
+	  color: blue;
+	}	
+	
+	.content-bullet {
+		
+		padding: 30px;
+		font-size: 1.3em;
+		list-style: circle;
+		
+	}
+	#blocks {
+	 position: absolute;
+	}
+	
+	.block {
+	  height: 140px;
+	  width: 250px;
+	  background-color: #ab3939;
+	  float: left;
+		margin: 10px;
+	}	
+	/*footer styes*/
+	.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+		margin-top: 1px;
+		padding-bottom: 50px;
+}
+
+.footer > .logo-footer img {
+    width: 50px;
+    height: 100%;
+    /*filter: brightness(50%);*/
+    opacity: 0.5;
+
+}
+
+.footer > .footer-phone-hours span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours {
+    font-size: .8em;
+    color: #cea135;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #cea135;
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
